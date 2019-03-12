@@ -72,13 +72,12 @@ class App extends React.Component {
         options={{
           scales: {
             xAxes: [{
-              type: 'time',
-              distribution: 'series'
+              type: 'time'
             }]
           },
           bezierCurve : false
         }}
-        height="100px"
+        height={100}
       />
     )
   }
